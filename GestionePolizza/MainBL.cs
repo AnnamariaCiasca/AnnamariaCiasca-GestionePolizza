@@ -70,18 +70,10 @@ namespace GestionePolizza
             policyRep.Update(policyToUpdate);
         }
 
-        internal static List<InsurancePolicy> GetByType(PolicyTypeEnum type)
-        {
-            try { 
-
-
-                return policyRep.GetByType(type);
-            } 
-            catch
-            { 
-                return null;
-            }
-        }
+        //internal static List<InsurancePolicy> GetByType(PolicyTypeEnum type)
+        //{
+        
+        //}
 
 
 
